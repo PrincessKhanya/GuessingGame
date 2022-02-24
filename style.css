@@ -1,0 +1,58 @@
+body{
+    background-color: #333232;
+}
+
+.main{
+    width: 750px;
+    height: 275px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(245, 210, 245)2;
+    border: 5px solid #f5e4c34c;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.newGameMsg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.9);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    margin: auto;
+}
+
+.newGameMsg.show{
+    display: flex;
+
+}
+
+.hidden {
+    display: none;
+}
+
+p{
+    font-size: 25px;
+    color: wheat;
+}
+
+#inputBox{
+    width: 100px;
+    margin: 25px auto;
+}
+
+.btn {
+    margin: 50px auto auto 5px;
+}
+
+.btn1 {
+    margin: 50px auto auto 5px;
+}
