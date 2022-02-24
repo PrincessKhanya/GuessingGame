@@ -27,7 +27,7 @@ function comparedGuess(){
         }
         else if(guessNumber<randomNumber){
             msgBox.innerHTML= 'Your guess is too low'
-            msgBox.style.color='red'
+            msgBox.style.color="red"
         }
         else{
             msgBox.innerHTML=`Correct, the secret number is ${guessNumber}`
