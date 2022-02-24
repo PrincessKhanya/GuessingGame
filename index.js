@@ -22,11 +22,11 @@ function comparedGuess(){
         msgBox.innerHTML= 'You must enter values between 0 and 100'
     }else{
         if(guessNumber>randomNumber){
-            msgBox.innerHTML= 'Your guess is too high'+ randomNumber;
+            msgBox.innerHTML= 'Your guess is too high'
             msgBox.style.color='red'
         }
         else if(guessNumber<randomNumber){
-            msgBox.innerHTML= 'Your guess is too low'+ randomNumber;
+            msgBox.innerHTML= 'Your guess is too low'
             msgBox.style.color='red'
         }
         else{
