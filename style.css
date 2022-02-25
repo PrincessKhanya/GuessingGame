@@ -7,7 +7,7 @@ body{
     height: 275px;
     justify-content: center;
     align-content: center;
-    background-color: rgb(245, 210, 245)2;
+    background-color: rgb(43, 38, 43);
     border: 5px solid #f5e4c34c;
     margin: auto;
     text-align: center;
@@ -37,6 +37,11 @@ body{
 
 .hidden {
     display: none;
+}
+
+.restartText{
+    color: white;
+    font-size: 5rem;
 }
 
 p{
