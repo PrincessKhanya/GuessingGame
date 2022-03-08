@@ -5,15 +5,9 @@ const newGameMsg = document.querySelector(".newGameMsg")
 
 let randomNumber = Math.ceil((Math.random() * 100));
 
+buttonElem.addEventListener("click",()=>{comparedGuess();});
 
-buttonElem.addEventListener("click",function(){ 
-    comparedGuess();
-});
-
-buttonElem1.addEventListener("click",function(){ 
-    location.reload()
-});
-
+buttonElem1.addEventListener("click",()=>{ location.reload()});
 
 function comparedGuess(){
     let guessNumber = document.getElementById("inputBox").value;
@@ -32,8 +26,8 @@ function comparedGuess(){
         else{
             msgBox.innerHTML=`Correct, the secret number is ${guessNumber}`
             msgBox.style.color='green';
-            setTimeout(function(){newGameMsg.classList.remove("hidden");}, 2000);
-            setTimeout(function(){location.reload()}, 5000);  
+            setTimeout(()=>{newGameMsg.classList.remove("hidden");}, 2000);
+            setTimeout(()=>{location.reload()}, 5000);  
         }  
     }  
 }
